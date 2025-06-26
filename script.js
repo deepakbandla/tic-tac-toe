@@ -45,5 +45,7 @@ reset.addEventListener('click', ()=>{
     buttons.forEach((btn)=>{
         btn.textContent="";
         turn.textContent="Player 1's turn";
+        player_2_turn=false;
+        player_1_turn=true;
     })
 })
